@@ -69,9 +69,9 @@ for line in called_numbers:
     if line.find(')') == 6:
         area_codes.add(line[0:7])
     if line[0] == "7" or line[0] == "8" or line[0] == "9":
-        area_codes.add(line[0:3])
+        area_codes.add(line[0:4])
     if line[0:2] == "140":
-        area_codes.add(line[0:2])
+        area_codes.add(line[0:3])
         
 
         
